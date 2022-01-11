@@ -11,7 +11,7 @@ public class p1152 {
 		String str = br.readLine();
 		int count = 0;
 		for(int i = 0; i < str.length(); i++) {
-			if(str.charAt(i) == ' ') {
+			if(str.charAt(0) == ' ' || str.charAt(str.length()-1) == ' ') {
 				count++;
 			}
 		}
