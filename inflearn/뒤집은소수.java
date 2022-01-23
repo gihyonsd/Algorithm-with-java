@@ -12,7 +12,6 @@ public class 뒤집은소수 {
 		for(int i = 0; i < n; i++) {
 			a[i] = sc.next();
 		}
-		ArrayList<Integer> list = new ArrayList<>();
 		for(int i = 0; i < n; i++) {
 			int tmp = Integer.parseInt(new StringBuilder(a[i]).reverse().toString());
 			boolean prime = true;
