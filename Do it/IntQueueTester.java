@@ -19,7 +19,7 @@ public class IntQueueTester {
 			int x;
 			switch(menu) {
 			case 1: //인큐
-				System.out.print("데이터");
+				System.out.print("데이터 :");
 				x = sc.nextInt();
 				try {
 					s.enque(x);
@@ -39,7 +39,7 @@ public class IntQueueTester {
 			case 3: //피크
 				try {
 					x = s.peek();
-					System.out.println(:"피크한 데이터는 " + x + "입니다.");
+					System.out.println("피크한 데이터는 " + x + "입니다.");
 				} catch(IntQueue.EmptyIntQueueException e) {
 					System.out.println("큐가 비어 있습니다.");
 				}
