@@ -23,3 +23,5 @@ public class 학급회장 {
 		System.out.print(answer);
 	}
 }
+//getOrDefault(Object key, V DefaultValue)
+//getOrDefault 메서드를 사용하면 key에 매핑되어 있는 값을 반환하고, 그렇지 않으면 디폴트 값이 반환
