@@ -2,7 +2,7 @@ package p57;
 
 import java.util.*;
 
-public class ±³À°°úÁ¤¼³°è {
+public class êµìœ¡ê³¼ì •ì„¤ê³„ {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
