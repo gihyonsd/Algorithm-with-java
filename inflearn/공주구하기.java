@@ -12,15 +12,15 @@ public class 공주구하기 {
 		int answer = 0;
 		Queue<Integer> queue = new LinkedList<>();
 		for (int i = 1; i <= n; i++) {
-			queue.add(i);
+			queue.offer(i);
 		}
-		while (queue.size()!=1) {
-			for(int j = 1; j < n; j++) {
-				queue.add(queue.remove());
+		while (queue.size() > 1) {
+			for(int j = 1; j < k; j++) {
+				queue.offer(queue.poll());
 			}
 			queue.remove();
 		}
-		answer=queue.poll();
+		answer = queue.poll();
 		System.out.println(answer);
 	}
 
