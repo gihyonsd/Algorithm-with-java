@@ -28,4 +28,4 @@ public class p2798 {
 		}
 		System.out.println(result);
 	}
-}
+} 
